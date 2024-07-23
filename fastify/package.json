@@ -6,9 +6,10 @@
     "dev": "fastify start -w -l info -P app.js"
   },
   "dependencies": {
-    "fastify": "^4.26.1",
     "@fastify/autoload": "^5.0.0",
-    "fastify-cli": "^6.2.1"
+    "fastify": "^4.26.1",
+    "fastify-cli": "^6.2.1",
+    "mongodb": "^6.8.0"
   },
   "devDependencies": {}
 }
