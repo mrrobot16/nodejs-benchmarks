@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+	  "outDir": "dist",
+	  "incremental": true,
+	  "target": "es2017",
+	  "module": "commonjs",
+	  "strict": true,
+	  "esModuleInterop": true,
+	  "skipLibCheck": true,
+	  "forceConsistentCasingInFileNames": true,
+	  "noImplicitReturns": true,
+	  "noUnusedLocals": true,
+	  "noImplicitAny": false,
+	  "sourceMap": true,
+	  "lib": ["ESNext"],
+	  "strictNullChecks": false,
+	  	"baseUrl": "src",
+		"paths": {
+			"@/*": ["*"]
+	  	},
+	  	"plugins": [
+		/* Transform paths in output .js files */
+			{
+				"transform": "typescript-transform-paths"
+			},
+		/* Transform paths in output .d.ts files */
+			{
+				"transform": "typescript-transform-paths",
+				"afterDeclarations": true
+			}
+		],
+	},
+    "ts-node": {
+        "transpileOnly": true,
+        "files": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "build", "dist"]
+  }
