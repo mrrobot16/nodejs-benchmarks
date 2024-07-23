@@ -28,6 +28,6 @@ yarn-error.log*
 .env.production.local
 
 # out dir
-dist/
+# dist/
 
 do_not_commit
