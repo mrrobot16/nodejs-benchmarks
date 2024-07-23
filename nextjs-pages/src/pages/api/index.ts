@@ -7,5 +7,5 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       origin: '*',
       optionsSuccessStatus: 200,
     });
-    res.status(200).json({ message: 'Hello Weave!', status: 200 });
+    res.status(200).json({ status: 200 });
 };
