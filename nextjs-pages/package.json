@@ -1,0 +1,21 @@
+{
+  "name": "nextjs-pages",
+  "scripts": {
+    "dev": "next dev -p 3002",
+	"build": "next build",
+	"start": "next start -p 3002"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "nextjs-cors": "2.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/cors": "2.8.17",
+    "@types/node": "20.12.9",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.4.5"
+  }
+}
