@@ -1,4 +1,5 @@
 .DS_Store
+nodes_modules
 nodes_modules/
 /nodes_modules/
 ./nodes_modules
