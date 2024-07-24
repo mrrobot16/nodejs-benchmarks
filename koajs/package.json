@@ -1,0 +1,12 @@
+{
+  "name": "koa",
+  "version": "1.0.0",
+  "main": "koa.js",
+  "scripts": {
+    "start": "node koa.js"
+  },
+  "dependencies": {
+    "koa": "^2.15.3",
+    "mongodb": "^6.8.0"
+  }
+}
